@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "donut_assistant",
+  "version": "${version}",
+  "name": "Donut Assistant",
+  "description": "Client-side transaction notes, payment safety prompts, and a customizable multiline HUD.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.donutassistant.DonutAssistantClient"] },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
